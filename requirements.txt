@@ -1,0 +1,12 @@
+langchain[groq]
+python-dotenv
+langgraph
+langchain_mcp_adapters
+npx
+streamlit
+google
+google.genai
+langchain-chroma
+langchain_google_genai
+langchain_community
+langchain_text_splitters
