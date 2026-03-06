@@ -10,9 +10,7 @@ import base64
 
 client = genai.Client()
 
-contents = ('Hi, can you create a 3d rendered image of a lion '
-            'with wings and a king crown flying over a happy '
-            'futuristic scifi city with lots of greenery?')
+contents = ('Hi, can you create a 3d rendered image of a Narasimha Avatar in the Kali Age killing phone doom scroller')
 
 response = client.models.generate_content(
     model="gemini-2.0-flash-preview-image-generation",

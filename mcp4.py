@@ -28,7 +28,7 @@ async def run_agent():
    )
    tools = await client.get_tools()
    agent = create_react_agent("groq:llama-3.3-70b-versatile", tools)
-   response = await agent.ainvoke({"messages": "delete file in current directory called demo.ppt"})
+   response = await agent.ainvoke({"messages": "create a folder with name test1.ppt "})
    print(response["messages"][-1].content)
 
 

@@ -50,7 +50,7 @@ sf_response = agent.invoke(
     config  
 )
 
-config = {"configurable": {"thread_id": "1"}}
+config = {"configurable": {"thread_id": "2"}}
 
 ny_response = agent.invoke(
     {"messages": [{"role": "user", "content": "what is his age"}]},
